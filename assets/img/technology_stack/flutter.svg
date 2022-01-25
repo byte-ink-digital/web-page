@@ -1,0 +1,28 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+	<title>flutter</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="49.426" y1="68.975" x2="51.073" y2="70.622">
+			<stop offset="0.2" stop-color="#000000" stop-opacity="0.15" />
+			<stop offset="0.85" stop-color="#616161" stop-opacity="0.01" />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="43.518" y1="68.976" x2="61.049" y2="68.976">
+			<stop offset="0.2" stop-color="#000000" stop-opacity="0.55" />
+			<stop offset="0.85" stop-color="#616161" stop-opacity="0.01" />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.8;fill: #42a5f5 } 
+		.shp1 { fill: #0d47a1 } 
+		.shp2 { fill: #42a5f5 } 
+		.shp3 { fill: url(#grd1) } 
+		.shp4 { fill: url(#grd2) } 
+	</style>
+	<g id="Flutter">
+		<path id="Layer" fill-rule="evenodd" class="shp0" d="M25.82 57.18L14 45.36L52.37 7L76 7M55.33 63.07L43.52 51.26L52.37 42.4L76 42.4L55.33 63.07Z" />
+		<path id="Layer" class="shp1" d="M43.52 74.88L52.37 83.74L76 83.74L55.33 63.07" />
+		<path id="Layer" class="shp2" d="M31.73 63.08L43.52 51.28L55.32 63.07L43.52 74.87L31.73 63.08Z" />
+		<path id="Layer" class="shp3" d="M43.53 74.87L55.32 63.08L56.97 64.72L45.17 76.52L43.53 74.87Z" />
+		<path id="Layer" class="shp4" d="M43.52 74.88L61.05 68.83L55.33 63.07" />
+	</g>
+</svg>

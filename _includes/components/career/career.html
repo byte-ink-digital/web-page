@@ -1,0 +1,193 @@
+<section class="mt-4" id="contact">
+
+  <div class="col-md-8 ml-auto mr-auto text-center mt-5" data-aos="fade-up">
+    <h5 class="display-5 text-justify">So, if you  </h5>
+
+    <div>
+      <br>
+      <ul class="list-unstyled">
+        <li>
+          <div class="d-flex align-items-center text-left">
+            <div>
+              <div class="mr-3">
+                <i class="ni ni-check-bold"></i>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0">Are motivated by challenges.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex align-items-center text-left">
+            <div>
+              <div class="mr-3">
+                <i class="ni ni-check-bold"></i>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0">Like to learn.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex align-items-center text-left">
+            <div>
+              <div class="mr-3">
+                <i class="ni ni-check-bold"></i>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0">Are passionate about exploring and working with the latest technologies.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex align-items-center text-left">
+            <div>
+              <div class="mr-3">
+                <i class="ni ni-check-bold"></i>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0">Strive to build quality products.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex align-items-center text-left">
+            <div>
+              <div class="mr-3">
+                <i class="ni ni-check-bold"></i>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0">Love to be a part of a pleasant, productive and stimulating environment.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex align-items-center text-left">
+            <div>
+              <div class="mr-3">
+                <i class="ni ni-check-bold"></i>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0">Or simply just like to do cool stuff.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <h5 class="display-5 text-justify">let us know. Maybe this is a beginning of a great cooperation. </h5>
+  </div>
+
+  <div class="col-md-8 ml-auto mr-auto text-center mt-5" data-aos="fade-up">
+    <h2 class="title">Tell us more about yourself!</h2>
+  </div>
+
+
+  <div class="contactus-1 fullWidth" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        {% if site.data.settings.career_settings.form_action %}
+        <div class="col-lg-8 col-md-12 ml-auto mr-auto">
+          <div class="card card-contact card-raised">
+
+            <form method="post" action="{{ site.data.settings.career_settings.form_action }}" id="career-form" enctype="multipart/form-data">
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Your name</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-circle-08"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Name ..." name="Name" required>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+
+                      <label>Email address</label>
+                      <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                        </div>
+                        <input class="form-control" name="email" placeholder="Email address..."
+                          aria-label="Email address..." type="text" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 pl-2">
+                    <div class="form-group">
+                      <label>Phone number</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="ni ni-collection"></i></span>
+                        </div>
+                        <input type="text" class="form-control" name="Phone number" placeholder="Phone number..."
+                          aria-label="Phone number..." required>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>What drives and motivates you?</label>
+                  <textarea name="What Drives you" class="form-control" id="message" rows="6"></textarea>
+                </div>
+                <div class="form-group">
+                  <label>What extraordinary things did you work on?</label>
+                  <textarea name="Achievements" class="form-control" id="message" rows="6"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label>What do you preffer?</label>
+                  <select name="Preference" class="form-control">
+                    <option value="No preference">No preference</option>
+                    <option value="Full Stack development">Full Stack development</option>
+                    <option value="Mobile development">Mobile development</option>
+                    <option value="Web development">Web development</option>
+                    <option value="Backend development">Backend development</option>
+                    <option value="Devops">Devops</option>
+                    <option value="Project Management">Project Management</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label>Attach your CV</label>
+                  <input type="file" name="Attachment" class="form-control">
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="custom-control custom-checkbox mt-2">
+                      <input type="hidden" name="_next"
+                        value="{{ site.data.settings.career_settings.confirmation_url }}" />
+                      <input type="hidden" name="_subject"
+                        value="{{ site.data.settings.career_settings.email_subject }}" />
+                      <input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="">
+
+                      <input class="custom-control-input" id="customCheck" type="checkbox" required>
+                      <label class="custom-control-label" for="customCheck">
+                        <span>I'm not a robot</span>
+                      </label>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit"
+                      class="btn btn-primary pull-right">{{ site.data.settings.career_settings.send_button_text }}</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        {% endif %}
+    </div>
+  </div>
+  </div>
+</section>

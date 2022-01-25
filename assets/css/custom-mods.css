@@ -1,0 +1,40 @@
+.one-row-icons-container-div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: hidden;
+  display: flex;
+  justify-content:space-around;
+}
+.one-row-icons-image-div {
+  max-width: 23%;
+  max-height: 23%;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #cccccc;
+}
+
+.underline {
+  border-bottom: 3px solid rgba(255,255,255,0.95);
+}
+
+.horizontal-line{border-bottom: 0.0625rem solid rgba(0,0,0,0.1); padding-top:10px;}
+
+.div-wide {
+  max-width: 900px !important;
+}
+
+.margin-left-20-top-10 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.display-one-row{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}

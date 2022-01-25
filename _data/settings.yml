@@ -1,0 +1,98 @@
+
+header_settings:
+  logo_image: /assets/img/brand/logo-white.png -- not used
+  mobile_logo_image: /assets/img/brand/logo-black.png
+  # Choose a color for your header [blue, dark, light].
+  theme: dark
+  # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".
+  allow_transparent: "yes"
+
+blog_settings:
+  # Choose a format for your blog listings:
+    # basic – a simple list of posts
+    # narrow – a masonary grid of posts
+    # grid – a full-width square grid of posts
+  theme: basic
+  # Should we display a narrow grid of other posts at the bottom of each blog post?
+  read_more: "yes"
+
+# Setup your navigation below – how to use the icons: 
+  # 1. See all the icons available here https://demos.creative-tim.com/argon-design-system-pro/docs/1.0/foundation/icons.html
+  # 2. Get the name of the icon e.g basket, then prefix with ni to make ni-basket. 
+  # 3. Add a color of the icon - text-primary, text-success, text-info, text-danger, text-warning and text-default all work!
+  # SUBMNU EXAMPLE:
+  #  - title: 'Blog'
+  #      submenu_items:
+  #        - title: Blog
+  #          url: /blog
+  #          icon: ni-books text-primary
+  #        - title: Narrow Grid Example
+  #          url: /blog-narrow-example
+  #          icon: ni-align-center text-success
+  #        - title: Wide Grid Example
+  #          url: /blog-grid-example
+  #          icon: ni-image text-info
+  #        - title: List Example
+  #          url: /blog-list-example
+  #          icon: ni-bullet-list-67 text-default
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: /
+    - title: 'Services'
+      url: /services
+    - title: Process
+      url: /process
+    - title: 'About'
+      url: '/about'
+    - title: 'Career'
+      url: '/career'
+    - title: 'Blog'
+      url: /blog
+    - title: 'Contact'
+      url: '/contact'
+
+footer_settings:
+  footer_tagline: ByteInk ~ Quality, Innovation & Simplicity
+
+contact_settings:
+  form_action: 'https://formspree.io/f/mwkajwer'
+  confirmation_url: '/thanks'
+  email_subject: 'ByteInk contact - new client form'
+  send_button_text: 'Send Message'
+
+career_settings:
+  form_action: 'https://formspree.io/f/mzbynryp'
+  confirmation_url: '/thanks'
+  email_subject: 'ByteInk careers - new employee form'
+  send_button_text: 'Send Message'
+
+social_settings:
+  facebook_url: ''
+  twitter_url: ''
+  instagram_url: ''
+  youtube_url: ''
+  vimeo_url: ''
+  pinterest_url: ''
+  tumblr_url: ''
+  dribbble_url: ''
+  behance_url: ''
+  github_url: 'https://github.com/byte-ink-digital'
+  reddit_url: ''
+  linkedin_url: ''
+
+authors:
+  ivan:
+    name: Ivan
+    picture: /assets/img/avatars/ivan.jpeg
+  lana:
+    name: Lana
+    picture: /assets/img/avatars/lana.jpeg
+  mate:
+    name: Mate
+    picture: /assets/img/avatars/mate.jpeg
+
+advanced_settings:
+  analytics_code: 
+  header_js: 
+  footer_js: 

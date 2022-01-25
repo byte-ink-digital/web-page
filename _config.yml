@@ -1,0 +1,51 @@
+site: ByteInk
+
+title: ByteInk
+favicon_image: /assets/img/favicon.png
+email: info@byteink.hr
+description: ByteInk creative tehnology agency offers high impact full-stack development services, from mobile and web develpment, custom solution development to various consulting services.
+
+
+url: https://www.byteink.hr
+baseurl:
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+    type: "post"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post" 
+
+sass:
+  sass_dir: assets/styles
+  style: compressed
+  sourcemap: never
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+  

@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+	<title>javascript</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #e9ca32 } 
+		.shp1 { fill: #ffde25 } 
+		.shp2 { fill: #ffffff } 
+	</style>
+	<g id="Javascript">
+		<path id="Layer" class="shp0" d="M15.86 78.63L10 7L80 7.14L73.8 78.63L45.26 86.9L15.86 78.63Z" />
+		<path id="Layer" class="shp1" d="M45.26 79.98L45.26 13.82L74.09 13.92L68.95 73.11L45.26 79.98Z" />
+		<path id="Layer" fill-rule="evenodd" class="shp2" d="M42.18 21.68L34.56 21.68L34.56 65.71L28.63 64.58L28.63 58.65L21.57 57.52L21.57 70.79L42.18 76.15L42.18 21.68ZM47.89 53.49L60.95 51.6L60.24 63.17L47.89 67.4L47.89 76.15L66.17 71.92L67.58 43.97L55.95 43.97L55.95 30.12L67.58 30.12L68.99 21.68L47.89 21.68L47.89 53.49Z" />
+	</g>
+</svg>

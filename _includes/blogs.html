@@ -1,0 +1,13 @@
+<div class="container" data-aos="fade-up">
+    {% if site.data.settings.blog_settings.theme == "grid" %}
+        {% include components/blog/grid.html %}
+    {% endif %}
+
+    {% if site.data.settings.blog_settings.theme == "narrow" %}
+        {% include components/blog/narrow.html %}
+    {% endif %}
+
+    {% if site.data.settings.blog_settings.theme == "basic" %}
+        {% include components/blog/basic.html %}
+    {% endif %}
+</div>

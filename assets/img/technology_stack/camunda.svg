@@ -1,0 +1,22 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+	<title>caomunda</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="7" y1="44.5" x2="82" y2="44.5">
+			<stop offset="0.11" stop-color="#ff1e00"  />
+			<stop offset="0.25" stop-color="#ff2700"  />
+			<stop offset="0.48" stop-color="#ff3f00"  />
+			<stop offset="0.77" stop-color="#ff6700"  />
+			<stop offset="1" stop-color="#ff8b00"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<g id="Camunda">
+		<path id="Layer" class="shp0" d="M44.5 82C23.76 82 7 65.24 7 44.5C7 23.76 23.76 7 44.5 7C65.24 7 82 23.76 82 44.5C82 65.24 65.24 82 44.5 82Z" />
+		<path id="Layer" class="shp1" d="M44.5 55.73C50.2 55.73 53.14 52.36 53.18 46.46L53.18 41.57L47.7 41.57L47.7 46.83C47.7 49.47 46.56 50.39 44.69 50.39C42.87 50.39 41.69 49.45 41.69 46.83L41.69 26.89C41.69 24.25 42.83 23.23 44.69 23.28C46.51 23.28 47.7 24.29 47.7 26.94L47.7 30.89L53.18 30.89L53.18 27.33C53.18 21.41 50.25 18.06 44.55 18.06C38.85 18.06 35.91 21.41 35.86 27.33L35.86 46.51C35.86 52.36 38.8 55.73 44.5 55.73Z" />
+		<path id="Layer" class="shp1" d="M35.86 61.16L53.18 61.16L53.18 70.94L35.86 70.94L35.86 61.16Z" />
+	</g>
+</svg>
