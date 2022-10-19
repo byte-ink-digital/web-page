@@ -41,6 +41,8 @@ menu_settings:
       url: /
     - title: 'Services'
       url: /services
+    - title: 'Products'
+      url: /products
     - title: Process
       url: /process
     - title: 'About'
